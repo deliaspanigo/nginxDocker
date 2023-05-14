@@ -17,10 +17,10 @@ FROM nginx:latest
 
 
 # Update Repositories
-apt-get update
+RUN apt-get update
 
 # Install nano
-apt-get install -y nano
+RUN apt-get install -y nano
 
 
 cd /etc/nginx/conf.d/
