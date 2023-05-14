@@ -1,0 +1,18 @@
+
+
+# Pagina 
+https://www.r-bloggers.com/2022/09/using-shiny-server-in-docker/
+
+
+# Crea una imagen desde cero cada veaz
+docker build -t nginx .
+
+# Crea una imagen desde cero cada veaz
+docker build --no-cache -t nginx .
+
+
+# Abrir un volumne de mi compu con el docker
+# docker run -p80:80 -d --restart unless-stopped --name nginx nginx
+
+
+
