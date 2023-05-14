@@ -16,3 +16,5 @@ docker build --no-cache -t nginx .
 
 
 
+# Sencentia de ejecucion sh
+docker exec -it nginx sh
