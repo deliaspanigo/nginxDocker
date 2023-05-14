@@ -23,7 +23,5 @@ RUN apt-get update
 RUN apt-get install -y nano
 
 
-cd /etc/nginx/conf.d/
-nano default.conf
 
 COPY ./default.conf /etc/nginx/conf.d/default.conf
