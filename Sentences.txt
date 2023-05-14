@@ -18,3 +18,11 @@ docker build --no-cache -t nginx .
 
 # Sencentia de ejecucion sh
 docker exec -it nginx sh
+
+
+
+# Resetear nginx
+docker exec -it nginx nginx -t
+
+
+docker exec -it nginx nginx -s reload
